@@ -1,0 +1,107 @@
+@media only screen and (max-width: 600px) {
+  
+    
+    .accomplishment h2{
+        font-size: 32px;
+        color: rgb(14 14 14);
+    }
+    .accomplishment p{
+        color: rgb(12 12 13);
+        padding-top: 0px;
+        font-size: 19px;
+        margin-left: 9vw;
+        text-align: center;
+    }
+    .accomplishment-data{
+        height: 97vw;
+        width: 91vw;
+        border-radius: 20px;
+        margin-left: 5vw;
+        font-size: large;
+        font-weight: bold;
+    }
+    .accomplishment-data li{
+        margin: 30px;
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    .links{
+        margin-top: 20px;
+    }
+    .links h2{
+        color: rgb(13 14 14);
+        font-size: 33px;
+    }
+    
+    .link-data{
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+        margin-left: 45px;
+        
+    }
+    .link-data div{
+        margin: 5px;
+        margin-left: 5px;
+        background-color: aqua;
+        margin-left: -26px;
+        height: 63px;
+        width: 94vw;
+        padding-top: 6px;
+        border-radius: 16px;
+    }
+    .link-data div a{
+        display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 13vw;
+    font-size: 17px;
+    text-decoration: none;
+    padding-bottom: 29px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    }
+    .link-data div a img{
+        border-radius: 20px;
+    
+    }
+    #hackerrank_logo ,#gfg_logo ,#leetcode_logo ,#codechef_logo ,#github_logo{
+        margin-top: 8px;
+        margin-bottom: -38px;
+        height: 11vw;
+        width: 8vw;
+        margin-left: 65px;
+    }
+    .links h3{
+        margin-left: 24vw;
+        font-size: 15px;
+        font-weight: 200;
+        font-style: italic;
+        padding-bottom: 30px;
+    }
+    
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .profile {
+        height: 178vw;
+        width: 108vw;
+    }
+    .accomplishment-data {
+        height: 56vw;
+        width: 78vw;
+    }
+    .links {
+        margin-top: 150px;
+    }
+    .link-data {
+        margin-top: 33px;
+        margin-left: 0px;
+    }
+    .links h3 {
+        margin-top: 33px;
+        margin-left: 26vw;
+        font-size: 25px;
+    }
+}

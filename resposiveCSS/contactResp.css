@@ -1,0 +1,133 @@
+@media only screen and (max-width: 600px) {
+    .main h2{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .contact{
+        height: 248vw;
+    }
+    .form-page{
+        display: flex;
+        flex-direction: column;
+        margin-left: 13vw;
+    }
+    .left{
+        height: 86vw;
+        /* background-color: red; */
+        width: 84vw;
+        font-size: 19px;
+        text-align: center;
+        margin-left: -23px;
+    }
+    .left p{
+        padding: 10px;
+        text-align: center;
+    }
+    .left a{
+        text-decoration: none;
+    }
+    .right {
+        height: 39vw;
+        width: 88vw;
+        margin-left: -20px;
+        font-size: 21px;
+    }
+    .mb-3{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 6px
+    }
+    .mb-3 input{
+        font-size: 23px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 80vw;
+    }
+    .form-text{
+        padding: 10px;
+    }
+    .form-control{
+        width: 27vw;
+        height: 33px;
+        border-radius: 15px;
+    }
+    #clientenquiry {
+        width: 82vw;
+        height: 28vw;
+        border-style: inset;
+        border-width: 2px;
+        font-size: 19px;
+    }
+    #isclient{
+        margin-left: -143px;
+    height: 26px;
+    margin-right: -129px;
+    }
+    .form-check{
+        flex-direction: row;
+    }
+    .btn{
+        height: 30px;
+        width: 120px;
+        /* margin: 20vw; */
+        border-radius: 10px;
+        color: white;
+        background-color: dogerblue;
+        background-color: #51a281;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0 3px ;
+        margin-left: 105px;
+        cursor: pointer;
+        margin-bottom: px;
+    }
+    .btn:hover{
+        background-color: white;
+        color: #51a281;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .contact {
+        height: 164vw;
+    }
+    .form-page {
+        flex-direction: column;
+        margin-left: 27vw;
+    }
+    .left {
+        height: 47vw;
+        width: 87vw;
+        font-size: 23px;
+        margin-left: -160px;
+    }
+    .right {
+        height: 40vw;
+        width: 65vw;
+        margin-left: -60px;
+        font-size: 28px;
+    }
+    .mb-3{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 6px
+    }
+    .mb-3 input {
+        font-size: 21px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 49vw;
+    }
+    #clientenquiry {
+        width: 49vw;
+        height: 22vw;
+    }
+    input#isclient {
+        margin-left: -160px;
+        height: 23px;
+    }
+}

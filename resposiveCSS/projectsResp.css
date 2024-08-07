@@ -1,0 +1,106 @@
+@media only screen and (max-width: 600px) {
+
+.project-container {
+    width: 117vw;
+}
+ .project-container h2{
+        /* margin-left: 42vw; */
+        font-size: 35px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+ }
+ .project-container p{
+    text-align: center;
+    font-size: 16px;
+    width: 87vw;
+    margin-left: 16vw;
+    padding-bottom: 0px;
+    color: rgb(254, 251, 251);
+ }
+ .project-container p span{
+    color: rgb(255, 255, 255);
+}
+ .project-div{
+     display: flex;
+     flex-direction: column;
+     margin-left: 107px;
+ }
+ .project-row-1{
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    margin: 8px;
+ }
+ .project-1{
+    /* background-color: #efc297; */ 
+    height: 79vw;
+    width: 86vw;
+     
+ }
+ .project-2{
+     /* background-color: aqua; */
+     height: 79vw;
+    width: 86vw;
+     margin-left: 100px;
+ }
+ .project-row-2{
+    height: 75vw;
+    width: 88vw;
+    margin-left: -21vw;
+    margin-bottom: 10px;
+    border-radius: 19px;
+ }
+ .project-1 ,.project-2 {
+    background-size: 100% 100%;
+    border-radius: 19px;
+    margin: 20px;
+    margin-left: -102px;
+ }
+ .project-head{
+     padding : 20px;
+     margin-left: 10vw;
+     font-size: 25px;
+     font-weight: bold;
+ }
+ .project-1 ul li{
+     margin-left: 30px;
+     font-size: 18px;
+     padding-top: 10px;
+ }
+ .project-2 ul li{
+     margin-left: 30px;
+     font-size: 18px;
+     padding-top: 15px;
+ }
+ .project-row-2 ul li{
+     margin-left: 30px;
+     font-size: 18px;
+     padding-top: 15px;
+ }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .project-container {
+        height: 222vw;
+        width: 105vw;
+    }
+    .project-container p span {
+        color: rgb(248 248 248);
+    }
+    .project-row-1 {
+        flex-direction: column;
+    }
+    .project-1, .project-2, .project-row-2 {
+       
+        height: 52vw;
+        width: 69vw;
+        margin-bottom: 60px;
+    }
+    .project-2 {
+        margin-left: 0px;
+    }
+    .project-row-2 {
+        margin-left: 3vw;
+    }
+
+}

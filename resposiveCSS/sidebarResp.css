@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+   .sidebar{
+    position: absolute;
+    /* background-color: rgb(158, 20, 20); */
+    width: 149px;
+    height: 107vw;
+    transition: transform 0.5s ease-in;
+    border-radius: 10px;
+    }
+    .sidebar nav li{
+        list-style: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 12px;
+        margin-top: 12px;
+        /* border-radius: 100px; */
+        background-color: #dccdbe;
+        text-align: center;
+        background-image: url(background-image/blog.jpg);
+        background-repeat: none;
+        background-size: 100% 100%;
+    }
+  
+   .cross{
+    margin-left: 102px;
+   }
+       
+    
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .sidebar{
+        position: absolute;
+        /* background-color: rgb(158, 20, 20); */
+        width: 224px;
+        height: 96vw;
+        transition: transform 0.5s ease-in;
+        border-radius: 10px;
+        }
+}

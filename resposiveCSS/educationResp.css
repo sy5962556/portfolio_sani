@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+    .education{
+        height: 336vw;
+    
+    }
+    #edu-head{
+        font-size: 43px;
+        text-decoration: underline bold;
+        color: rgb(6, 55, 43);
+    }
+    #edu-para{
+        text-align: center;
+        width: 71vw;
+        font-size: 25px;
+        margin-top: -14px;
+        margin-left: 15vw;
+        color: #ffffff;
+        font-weight: 600;
+    }
+    #edu-para span{
+        color: #ffffff;
+    }
+    .btech ,.intermidiate ,.highschool{
+        background-color: red;
+    margin-top: 30px;
+    margin-left: 12vw;
+    height: 72.5vw;
+    width: 85vw;
+    /* background-image: url(background-image/education-blocks.jpg); */
+    background-size: 100% 100%;
+    }
+    .btech h2{
+        /* margin-left: 20vw; */
+        padding: 10px;
+    }
+    .intermidiate h2{
+        /* margin-left: 30vw; */
+        padding: 10px;
+    }
+    .highschool h2{
+        /* margin-left: 33vw; */
+        padding: 10px;
+    }
+    .innerbtech ,.innerintermidiate ,.innerhighschool{
+        display: flex; 
+        flex-direction: column;  
+    }
+    
+    .detail-1 ,.detail-2 ,.detail-3{
+        display: flex;
+    margin-left: -8vw;
+    }
+    .detail-1 h3 ,.detail-2 h3 ,.detail-3 h3{
+        margin-top: 25px;
+        padding-left: 10px;
+    }
+    .detail-10{
+        margin-left: 9.5vw;
+        padding: 13px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .detail-12 {
+        margin-left: 5.5vw;
+        padding: 13px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .detail-btech{
+        margin-left: 4vw;
+    margin-top: 3vw;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    #bietlogo ,#uplogo{
+        height: 90px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .education{
+        /* background-image: url(background-image/education.jpg); ============ */
+        background-size: 100% 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+        .btech, .intermidiate, .highschool {
+        margin-top: 26px;
+        margin-left: 7vw;
+        height: 46.5vw;
+        width: 83vw;
+        }
+
+    .innerbtech, .innerintermidiate, .innerhighschool {
+        display: flex;
+        flex-direction: column;
+        margin-left: 55px;
+    }
+   
+    #edu-para{
+        color: #4fe9aa;
+    }
+    #edu-para span{
+        color: #4fe9aa;
+    }
+    .detail-btech {
+        margin-left: 4vw;
+    }
+} 

@@ -1,0 +1,116 @@
+@media only screen and (max-width: 600px) {
+    .introcontainer{
+        background-size: 110% 110% ;
+    
+    }
+    .devIntro{
+        padding: 20px;
+        margin-left: 0px;
+        color: rgb(18, 20, 20);
+    }
+    
+    .devIntro p{
+        margin: 2px;
+        padding-top:3px;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .about-me{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about-me h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .about-me p{
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 20px;
+    }
+    .contactdetail{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        /* margin-left: 10px; */
+    }
+    .contactdetail div{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .social-media{
+        margin-top: 40px;
+        margin-left: 20%;
+    }
+    .social-media h2{
+        margin-left: -15vw;
+        padding-bottom: 40px;
+    }
+    .social-media ul li {
+        list-style: none;
+        padding-right: 90px;
+    }
+    .social-media ul{
+        display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+       
+    }
+    #linkedin{
+        height: 80.5px;
+    }
+    #facebook{
+        height: 80px;
+        width: 80px;
+    }
+    #twitter{
+        height: 80px;
+    }
+    #instagram{
+        height: 75px;
+    }
+    .social-media p{
+        margin-top: 10px;  
+        margin-left: 0%;
+        font-size:15px;
+        font-style: italic;
+    }
+    
+    
+
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .introcontainer {
+        /* background-image: url(background-image/intro.jpg); */
+        background-repeat: no-repeat;
+        background-size: 118% 110%;
+        height: 168vw;
+    }
+    .devIntro {
+        padding: 63px;
+        margin-left: 0px;
+        color: rgb(18, 20, 20);
+    }
+    .contactdetail {
+        padding: 55px;
+    }
+    .social-media {
+        margin-top: 40px;
+        margin-left: 7%;
+    }
+    .social-media h2 {
+        padding-bottom: 42px;
+    }
+    .social-media ul li {
+        list-style: none;
+        padding-right: 47px;
+    }
+    .social-media p {
+        margin-left: 17%;
+        font-size: 20px;
+    }
+}
